@@ -11,25 +11,15 @@ package menuitem;
 public class Menuclass {
 
     
-    protected String[] namaMenu ={
-       "menu1","menu2","menu3"
-      
-    };
-    protected double[] harga ={
-        5000,7000,2000
-    };
-    protected int[] jual ={
-        12,5,7
-    };
+    protected String namaMenu;
+    protected double harga ;
+    protected int jual ;
+
+    // Buat 5 menu terserah 
     
     public void tampilkanMenu(){
-        
-        for (int i = 0; i < namaMenu.length; i++) {
-            System.out.println(
-                namaMenu[i] +
-                " | Harga: Rp" + harga[i] +
-                " | Terjual: " + jual[i]
-            );
+        //menampilkan menu
+
     }
     }
 }
